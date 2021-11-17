@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘은 웹표준 셋째날</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/9448297042.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            padding: 0;
+            margin: 100px;
+        }
+
+        p {
+            width: 250px;
+            height: 220px;
+            border: 1px solid black;
+        }
+
+        p:before {
+            content: "";
+            display: block;
+            clear: both;
+            width: 200px;
+            height: 2px;
+            background: blueviolet;
+        }
+
+        p:after {
+            content: "";
+            display: block;
+            clear: both;
+            width: 100px;          
+            height: 100px;
+            border-radius: 50%;
+            background: hotpink; 
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vero ducimus obcaecati excepturi! A nostrum nemo corporis, quae blanditiis ab rem modi repudiandae molestiae minus vero reiciendis atque ipsum consequuntur at.</p>
+</body>
+</html>

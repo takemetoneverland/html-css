@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘은 웹표준 셋째날</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/9448297042.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        #wrap {
+            width: 100%;
+            height: 300px;
+            background: yellow;
+            margin: 0 auto;
+        }
+
+        h1{
+            font-size: 30px;
+            text-align: center;
+            color: black;
+        }
+
+        @media(min-width: 800px) {
+            #wrap {
+                width: 750px;
+                height: 600px;
+                background: blue;
+                margin: 0 auto;                
+            }
+
+            h1 {
+                font-size: 50px;
+                text-align: center;
+                color: white;
+            }
+        }
+
+        @media(min-width: 1200px) {
+            #wrap {
+                width: 1000px;
+                height: 800px;
+                background: purple;
+                margin: 0 auto;
+            }
+
+            h1 {
+                font-size: 120px;
+                text-align: center;
+                color: pink;
+            }
+        }
+
+    </style>
+</head>
+<!--800px 이상이 되었을 때 #wrap과 h1의 요소를 변화시키고
+    1200px 이상이 되었을 때 #wrap과 h1의 요소를 변화시키기-->
+<body>
+    <div id="wrap">
+        <h1>HTML</h1>
+    </div>
+</body>
+</html>
