@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>오늘은 넷째날</title>
+    <style>
+       
+    </style> 
+</head>
+
+<body>
+    <script>
+        var today = new Date();
+
+        var nowMonth = today.getMonth()+1,
+            nowDate = today.getDate(),
+            nowDay = today.getDay();
+
+            document.write("<h1>오늘 날짜 정보<br>");
+            document.write("현재 월: " + nowMonth + "<br>");
+            document.write("현재 일: " + nowDate + "<br>");
+            document.write("현재 요일: " + nowDay + "<br>");
+
+    </script>
+   
+</body>
+</html>
